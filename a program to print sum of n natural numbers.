@@ -1,0 +1,14 @@
+//write a program to print sum of n natural numbers using do-while  loop 
+
+class HelloWorld {
+    public static void main(String[] args) {
+    int sum = 0; 
+    int i = 1 ;
+     do {
+        sum += 0 + i;
+        i++;
+        System.out.println(sum);
+     }while(i<101);
+     
+    }
+}
