@@ -1,0 +1,19 @@
+// WRITE A PROGRAM TO PRINT the following pattern: 
+//  ****
+//  ***
+//  **
+//  *
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+     int n = 0; 
+     int i ;
+     for ( i= 4; i>n ; i--){
+         for (int j=0; j<i ; j++){
+             System.out.print("*");
+         }
+         System.out.println(" ")
+     }
+        
+    }
+}
