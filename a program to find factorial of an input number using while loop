@@ -1,0 +1,18 @@
+// a program to find factorial of an input number using while loop
+import java.util.Scanner;
+class Factorial{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your input:");
+       int x = sc.nextInt(); 
+         int result = 1;
+         
+           int i = x;
+       while ( i>0){
+           result *= i ;
+           i-- ; 
+          
+       }
+        System.out.println(result);
+}
+}
