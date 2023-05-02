@@ -1,0 +1,26 @@
+// write a program to find out whether a given integer is present in an array or not
+class Main {
+    public static void main(String args[]){
+    
+
+int [] integer = {1,2,3,4,5,6,7};
+    boolean ispresent= false;
+for (int elements:integer){
+    int x =7;
+    if ( elements==x){
+         ispresent = true;
+         
+    
+}
+}
+   if (ispresent){
+    System.out.println(ispresent+" "+  "the given integer is present");
+    
+}else{
+    System.out.println("the given integer is not present");
+}
+
+
+}
+    
+}
