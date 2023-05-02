@@ -1,0 +1,14 @@
+// CREATE AN ARRAY OF FIVE FLOATS AND CALCULATE THEIR SUM
+class Main {
+    public static void main(String args[]){
+    
+
+float [] sum = {4.5f,5.0f,3.5f,9.0f,10.0f};
+float result = 0;
+for (float elements: sum){
+    result +=elements;
+    
+}
+System.out.println(result);
+}
+}
