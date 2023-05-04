@@ -1,0 +1,19 @@
+
+// write a java program to find minimum element in an array 
+import java.util.Scanner;
+public class marks {
+    public static void main(String args []){
+    
+      int [] x= { 20,80,50,30,20,10,20,30,40,50,60,70,70,110,30,20,5};
+      int min = x[0];
+      for ( int i= 1; i<x.length;i++){
+          if ( min>x[i]){
+             min= x[i];
+          }
+             System.out.println(min);
+      }
+      
+    
+        
+    }
+}
