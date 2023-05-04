@@ -1,0 +1,19 @@
+
+// write a java program to find maximum element in an array 
+import java.util.Scanner;
+public class marks {
+    public static void main(String args []){
+        Scanner sc = new Scanner(System.in);
+        int [] x= { 90,80,50,30,20,10,20,30,40,50,60,70,70,110,30,20};
+      int max = 0 ; 
+      for( int element: x){
+          
+         if(element>max){
+             System.out.println(element);
+             break;
+         }
+      }
+    
+        
+    }
+}
