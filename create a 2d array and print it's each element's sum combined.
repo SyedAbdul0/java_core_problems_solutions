@@ -1,0 +1,17 @@
+// create a 2d array and print it's each element's sum combined.
+public class Main {
+    public static int num;
+
+    public static void main(String[] args) {
+    int [][] array =  { {12,2,3,4,5} , {12,2,3,4,5} };
+    int sum= 0 ;
+    for ( int [] elements : array ){
+        for( int columns: elements ){
+            sum+=columns;
+        } 
+            System.out.println(sum);    //The System.out.println(sum) statement is inside the outer loop, so it will be executed once for each row. After the inner loop calculates the sum for each row, the outer loop prints the sum of that row.
+
+
+    }
+}
+}
