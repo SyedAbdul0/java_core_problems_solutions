@@ -1,0 +1,17 @@
+updating the value of an array using a simple function, 
+import java.util.*;
+public class marks {
+    static void  array2( int [] y ){
+        y[0]= 21;
+    }
+    public static void main(String args []){
+    
+      int [] x= { 20,80,50,30,20,10,20,30,40,50,60,70,70,110,30,20,5};
+     
+     array2(x);
+     System.out.println(x[0]);
+    
+        
+    }
+}
+// array are mutable 
