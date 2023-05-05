@@ -1,0 +1,17 @@
+// create a java program using var args
+import java.util.*;
+public class marks {
+  static  int result = 0 ;
+   static int sum( int ... variables){
+      for (int variable : variables){
+         result =  variable;
+      }
+          return result;
+   }
+   public static void main(String args[]){
+      
+          int c = sum(1,2,3,4,5,6,7);
+          System.out.println(c);
+   }
+}
+// array are mutable 
