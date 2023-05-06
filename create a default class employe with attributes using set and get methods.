@@ -1,0 +1,24 @@
+class Employee{
+    String name ;
+    int salary;
+    public String getName(){
+        return name ;
+    }
+    public int getSalary(){
+        return salary;
+    }
+    public void SetName(String n){
+        name = n ;
+    }
+}
+    public class Main{
+        public static void main(String args[]) {
+         Employee Pandit = new Employee();
+        Pandit.SetName("rakesh");
+          Pandit.salary = 32;
+        int salary=  Pandit.getSalary();
+        String aalo =  Pandit.getName();
+            System.out.println(aalo);
+            System.out.println(salary);
+        }
+    }
