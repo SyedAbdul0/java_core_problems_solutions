@@ -1,0 +1,24 @@
+// create an example program of copy constructor working.
+class Student{
+    String hobby , name ;
+    Student (String m , String n ){
+        this.name = m;
+        this.hobby= n ;
+    }
+    Student(Student p2){
+        this.name = p2.name;
+        this.hobby = p2.hobby;
+        System.out.println(hobby+ name );
+    }
+
+}
+public  class Main{
+    public static void main(String[] args) {
+
+
+        Student obj = new Student("harry ", "musa ");
+        Student p2 = new Student(obj);
+        System.out.println(p2.name);
+        System.out.println(p2.hobby);
+    }
+}
