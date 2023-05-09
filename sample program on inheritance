@@ -1,0 +1,14 @@
+//an example of basic inheritance introduced
+class Triangle {
+    String color;
+}
+class Monopoly extends Triangle{
+
+}
+public class Main {
+    public static void main(String[] args) {
+        Monopoly obj = new Monopoly();
+        obj.color= "blue";
+        System.out.println(obj.color);
+    }
+}
