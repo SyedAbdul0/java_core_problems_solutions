@@ -1,0 +1,31 @@
+// create a class employee with following properties and methods :
+//> salary (property)(int)
+//> getSalary(method returning int)
+// > name (property )(string)
+//  > getName(method returning String)
+// setName(method changing name)
+
+class Employee{
+   private  int salary = 50 ;
+    private String name ;
+    public void setName(String n){
+        this.name = n;
+    }
+    public String getName(){
+        return this.name;
+    }
+    public int getSalary(){
+        return this.salary;
+    }
+}
+public class Main{
+    public static void main(String[] args) {
+        Employee obj = new Employee();
+
+        obj.setName("MUSA");
+        String wahid = obj.getName();
+        int salary= obj.getSalary();
+        System.out.println(wahid);
+        System.out.println(salary);
+    }
+}
